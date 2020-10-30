@@ -11,6 +11,10 @@
     <title>Sasanka Weerakoon - About me</title>
     
     <style>
+        h1{
+            font-size: 500%;
+            font-weight: bold; 
+        }
         h2{
         display:inline;
         float:left;
@@ -18,14 +22,14 @@
 
         .linkingbar{
             overflow: hidden;
-            background-color: antiquewhite;
+            background-color: rgb(255, 255, 255);
         }
         .linkingbar a{
-            float: left;;
+            float: right;
             display: block;
-            color: beige;
+            color: darkgrey;
             text-align: center;
-            padding: 14px 16px;
+            padding: 20px 20px;
             text-decoration: none;
             font-size: 20px;
         }
@@ -33,13 +37,15 @@
             background-color:cornflowerblue;
         }
         .linkingbar a.active{
-            background-color: darkgray;
-            color: white;
+            background-color:black;
+            color:black;
         }
         body{
             background-color :lightgoldenrodyellow;
         }
         p{
+            font-size: 130%;
+            text-shadow: black;
             text-align: justify;
         }
 
@@ -49,16 +55,45 @@
         padding-top: 5px;
         padding-bottom: 5px;
         }
+
+        .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+
+        .button1 {
+        background-color: rgb(73, 91, 245); 
+        color: rgb(255, 255, 255); 
+        border: 2px solid rgb(73, 91, 245);
+        border-radius: 8px;
+        }
+
+        .button1:hover {
+        background-color: white;
+        color:  rgb(73, 91, 245);
+        }
+
+
         
     </style>   
 </head>
-<body>
+<body background="IMG/Background texture 2.jpg">
     <!--Navigation ba need to update-->
 
-    <div class = "linkingbar">
+    <div class = "linkingbar" style="padding-right: 100px;">
+        <a style="float: left; color: black;" href="#home"><b>Sasanka Weerakoon</b></a>
+        <a href="#news">RESUME</a>
+        <a href="#contact">CONTACT</a>
         <a cclass="active" href="#home">ABOUT ME</a>
-        <a href="#news">Resume</a>
-        <a href="#contact">Contact</a>
+        
         
     </div>
 
@@ -68,46 +103,19 @@
             <div class="col-12 ">
               <div class="row">
     
-                <div class="col-lg-4 col-sm-12 vsmallpadding" style="padding-top: 25px;">
+                <div class="col-lg-4 col-sm-12 vsmallpadding" style="padding-top: 70px;">
                   <div class="card " style="border-color: black; border-width: 3px;">
                     <div class="card-body vsmallpadding">
-                      <img src="C:\Users\DELL\OneDrive\Pictures\My Photo 1.png" style="width: 100%;">
+                      <img src="IMG/My Photo 1.png" style="width: 100%;">
                     </div>
                   </div>
                 </div>
-  
-              </div>
-            </div>
-          </div>
-
-
-
-        
-            <div class="row">
-                <div-col-3>
-                    <h1>Sasanka</h1>
-                </div-col-3>
-                <div-col-3>
-                    <div class="card">
-                        <img src="C:\Users\DELL\OneDrive\Pictures\My Photo 1.png"  alt="MyPhoto" >
-                    </div>
-                </div-col-3>
-            </div>       
-    </div>
-   
-    
-
-        <!--About Me -->
-    <div class="container" style="padding-left: 20px;">
-        <div class ="aboutme">
-            <div class="img">
-                <img src="C:\Users\DELL\OneDrive\Pictures\My Photo 1.png" width="250" height="330" alt="MyPhoto" align="left">
-            </div>
-            <div>
-                    <br clear="right">
+                <div class="col-lg-6 vsmallpadding" style="padding-top: 80px; padding-left: 50px;">
                     <h1>Hello</h1>
-                    <h2>Here's Who I Am</h2></br>
-                    <p>
+                    <h2>Here's Who I Am</h2></br></br></br>
+                    <button class="button button1">RESUME</button>
+                    <button class="button button1">CONTACT</button>
+                    <p style="padding-top: 10px;">
                         I'm an undergraduate scholar at Sri Jhon
                         Kothalawala Defence University. My aspiration is
                         to become a Bachelor of Software Engineering
@@ -119,8 +127,48 @@
                         additionally in graphic designing. 
 
                     </p>
+                </div>
+  
+              </div>
+            </div>
+          </div>  
+    </div>
+   
+    <div class="container" style="padding-top: 150px;">
+        <div class="raw">
+            <div class="col-12">
+                <div class="raw">
+                    <div class="linkingbar" >
+                        <div class="col-lg-4 vsmallpadding" style="padding-top: 20px;">
+                            <p style="text-align: center; font-size: 75%;">
+                                
+                                <b>Call</b><br>
+                                +94 719 414 139
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p style="text-align: center; font-size: 75%;">
+                                
+                                <b>Address</b><br>
+                                265/6/1, Alubomulla,Panadura <br>
+                                Sri Lanka
+                            </p>
+                        </div>
+                            <div class="col-lg-4">
+                                <p style="text-align: center; font-size: 75%;">
+                                    
+                                    <b>Follows</b><br>
+                                    265/6/1, Alubomulla,Panadura <br>
+                                    Sri Lanka
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    
+
+       
 </body>
 </html>
