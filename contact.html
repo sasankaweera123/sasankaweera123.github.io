@@ -21,18 +21,19 @@
         .linkingbar a{
             float: right;
             display: block;
-            color: darkgrey;
+            color: rgb(51, 50, 50);
             text-align: center;
             padding: 20px 20px;
             text-decoration: none;
             font-size: 20px;
         }
         .linkingbar a:hover{
-            background-color:cornflowerblue;
+            background-color:rgb(241, 247, 193);
         }
-        .linkingbar a.active{
-            background-color:black;
-            color:black;
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
         }
         body{
             background-color :lightgoldenrodyellow;
@@ -107,28 +108,146 @@
         margin-left: 75px;
         font-size: 30px;
         }
+
+        input{
+            border-color: white;
+        }
+
+
+        input[type=text], select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.479);
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        }
+        label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        }
+
+        input[type=submit] {
+        background-color: rgb(0, 38, 255);
+        color: rgb(255, 255, 255);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+        background-color: white;
+        color:  rgb(73, 91, 245);
+        }
+
+        .container {
+        border-radius: 8px;
+        background-color: #f2f2f2c2;
+        padding: 75px;
+        }
+
+        .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        }
+
+        .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+        }
         
     </style>
 </head>
 <body background="IMG/Background texture 2.jpg">
 
      <!--Navigation ba need to update-->
-     <div class = "linkingbar" style="padding-right: 100px;">
+     <div class = "linkingbar" style="padding-right: 100px; ">
         <a style="float: left; color: black;" href="index.html"><b>Sasanka Weerakoon</b></a>
         <a href="contact.html">CONTACT</a>
         <a href="resume.html">RESUME</a>
-        <a cclass="active" href="index.html">ABOUT ME</a>
+        <a href="index.html">ABOUT ME</a>
     </div>
 
+    <h1 style="padding-top: 50px; text-align: center; font-size: 300%; font-weight: bold;">Let's talk</h1>
+
+    <br><br>
 
 <!--Code must be In here-->
+    <div class="container">
+        <form action="\action_page.php">
+            <div class="row">
+                <div class="col-25"> 
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fname" placeholder="First Name....">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">   
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="lname" name="lname" placeholder="Last Name....">
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-25">
+                    <label for="enail">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="example@....">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <lable for = "gender">Gender</lable>
+                </div>
+                <div class="col-75">
+                    <div class="col-25">
+                        <input type="radio" name="gender" value="m"> Male
+                    </div>
+                    <div class="col-75">
+                        <input type="radio" name="gender" value="m"> Female
+                    </div>   
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for = "subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <input type ="text" id="subject" name="subject" placeholder="Subject.....">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder=" Your message......" style="height: 150px;"></textarea>
+                </div>
+            </div>
+            
+            <div style="padding-left: 90%;">
+                <br>
+                <input type="submit" value="Submit">
+            </div>
+               
+
+        </form>
+    </div>  
 
 
-
+    <br><br><br><br><br><br>
 
     <!--<div class="container linkingbar">-->
         <!--Bottom Navigation-->
-        <div class="row linkingbar" style="padding-top: 50px;">
+        <div.con1 class="row linkingbar" style="padding-top: 50px;">
             <div class="col-12">
                 <div class="row">
                     <div class="col-4">
@@ -152,7 +271,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div.con1>
     <!--</div>--> 
     
     
