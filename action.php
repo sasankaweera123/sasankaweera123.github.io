@@ -1,4 +1,5 @@
 <?php
+
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];
@@ -7,7 +8,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$conn = new mysqli('localhost','root', '');
+$conn = new mysqli('localhost','root', '','dataform');
 if($conn->connect_error)
 {
     die('Connection Failed : '.$conn->connect_error);
