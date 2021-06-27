@@ -20,6 +20,7 @@
         .linkingbar {
             overflow: hidden;
             background-color: rgb(255, 255, 255);
+            z-index: 1;
         }
         
         .linkingbar a {
@@ -33,7 +34,7 @@
         }
         
         .linkingbar a:hover {
-            background-color: rgb(241, 247, 193);
+            background-color:  rgba(0, 179, 219, 0.342);
         }
         
         .main {
@@ -125,13 +126,21 @@
             padding: 10px;
             margin: 0px;
         }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+      
+
     </style>
+    
 </head>
 
 <body>
 
     <!-- Start Navigation -->
-    <div class="linkingbar" style="padding-right: 100px;">
+    <div class="linkingbar" id="myHeader" style="padding-right: 100px;">
         <a style="float: left; color: black;" href="index.html"><b>Sasanka Weerakoon</b></a>
         <a href="contact.html">CONTACT</a>
         <a href="mydesgin.html">My DESIGN</a>
@@ -325,6 +334,21 @@
         <a href="https://www.linkedin.com/in/sasanka-weerakoon-5927861b3/" target="blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
         <a href="https://www.youtube.com/channel/UC5vcCkjqnW7TyB7DcOCopAQ" target="blank" class="youtube"><i class="fa fa-youtube"></i></a>
     </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
 
 </body>
 
