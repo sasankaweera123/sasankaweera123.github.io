@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*Navigation ba styles (Start , End)*/
 
@@ -18,7 +22,7 @@
 }
 
 .linkingbar a:hover {
-    background-color:  rgba(0, 179, 219, 0.342);
+    background-color: rgba(0, 179, 219, 0.342);
 }
 
 .main {
@@ -36,6 +40,8 @@ p {
     text-shadow: black;
     text-align: justify;
 }
+
+
 /*Creation padding for main image and conrtent*/
 
 .vsmallpadding {
@@ -44,6 +50,8 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
 /*Fixed icon bar Styles*/
 
 .icon-bar {
@@ -101,6 +109,8 @@ p {
     margin-left: 75px;
     font-size: 30px;
 }
+
+
 /*Creating a box Style */
 
 .box1 {
@@ -110,9 +120,9 @@ p {
     padding: 10px;
     margin: 0px;
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-
+}

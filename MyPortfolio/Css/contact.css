@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*Navigation ba styles (Start , End)*/
 
@@ -36,6 +40,8 @@ p {
     text-shadow: black;
     text-align: justify;
 }
+
+
 /*fixed postion linked icon bar*/
 
 .icon-bar {

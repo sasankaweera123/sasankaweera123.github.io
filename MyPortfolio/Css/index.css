@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-size: 500%;
     font-weight: bold;
@@ -9,6 +13,8 @@ h2 {
     float: left;
     color: rgb(0, 0, 0);
 }
+
+
 /* Navigation bar styles*/
 
 .linkingbar {
@@ -36,6 +42,8 @@ h2 {
     margin-top: 30px;
     height: 1500px;
 }
+
+
 /* Boddy Style and text Style */
 
 body {
@@ -47,6 +55,8 @@ p {
     text-shadow: rgb(255, 255, 255);
     text-align: justify;
 }
+
+
 /*Correcting padding to the main photo and text*/
 
 .vsmallpadding {
@@ -55,6 +65,8 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
 /*Button Style*/
 
 .button {
@@ -82,6 +94,8 @@ p {
     background-color: rgba(255, 255, 255, 0.705);
     color: rgb(255, 255, 255);
 }
+
+
 /* fixed icon bar Styles  */
 
 .icon-bar {
@@ -139,6 +153,7 @@ p {
     margin-left: 75px;
     font-size: 30px;
 }
+
 .sticky {
     position: fixed;
     top: 0;
