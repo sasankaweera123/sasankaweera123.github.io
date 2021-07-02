@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    position: absolute;
+    width: 221px;
+    height: 75px;
+    left: 218px;
+    top: 44px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    color: #00618A;
+}
+
+.recmain{
+    position: absolute;
+    width: 100%;
+    height: 215px;
+    left: 0px;
+    top: -46px;
+
+    background: #ACE6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+body{
+    background-color: #1DBAFE;
+}
+
+.backgroundvec1{
+    position: absolute;
+    width: 1065px;
+    height: 1065px;
+    left: -209px;
+    top: -77px;
+    border-radius: 50%;
+
+    background: rgba(172, 230, 255, 0.2);
+    border: 3px solid rgba(0, 97, 138, 0.1);
+    box-sizing: border-box;
+}
+
