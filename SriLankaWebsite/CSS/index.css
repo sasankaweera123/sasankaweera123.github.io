@@ -31,6 +31,23 @@ html{
     border-radius: 20px;
 }
 
+.flag{
+    position: absolute;
+    width: 148px;
+    height: 74px;
+    left: 37px;
+    top: 41px;
+}
+
+.emblem{
+    position: absolute;
+    width: 100px;
+    height: 141px;
+    left: 88.96%;
+    right: 4.1%;
+    top: 1.46%;
+    bottom: 84.77%;
+}
 body{
     background-color: #1DBAFE;
 }
@@ -85,6 +102,7 @@ body{
 
 }
 
+/*Western Province*/
 .gampaha{
     position: absolute;
     left: 8.16%;
@@ -109,12 +127,31 @@ body{
     bottom: 20.14%;
 }
 
+/* Sabaragamuwa Province */
 .kegalla{
     position: absolute;
     left: 23%;
     right: 59.49%;
     top: 62.44%;
     bottom: 23.18%;
+}
+
+.ratnapura{
+    position: absolute;
+    left: 24.21%;
+    right: 41.75%;
+    top: 74.44%;
+    bottom: 7.91%;
+}
+
+/* Uva Province */
+.badulla{
+    position: absolute;
+    left: 50.87%;
+    right: 27.48%;
+    top: 56.81%;
+    bottom: 15.81%;
+
 }
 
 .monaragala{
@@ -125,14 +162,7 @@ body{
     bottom: 9.54%;
 }
 
-.badulla{
-    position: absolute;
-    left: 50.87%;
-    right: 27.48%;
-    top: 56.81%;
-    bottom: 15.81%;
-
-}
+/* Southern Province */
 .matara{
     position: absolute;
     left: 33.13%;
@@ -155,13 +185,8 @@ body{
     top: 86.76%;
     bottom: 1.08%;
 }
-.ratnapura{
-    position: absolute;
-    left: 24.21%;
-    right: 41.75%;
-    top: 74.44%;
-    bottom: 7.91%;
-}
+
+/* North-Western Province */
 .puttalam{
     position: absolute;
     left: 3%;
@@ -176,6 +201,8 @@ body{
     top: 41.94%;
     bottom: 34.06%;
 }
+
+/* Northern Province */
 .kilinochchi{
     position: absolute;
     left: 15.14%;
@@ -211,19 +238,13 @@ body{
     top: 18.13%;
     bottom: 67.01%;
 }
+/* North Central Province */
 .anuradhapura{
     position: absolute;
     left: 14.41%;
     right: 40%;
     top: 23.5%;
     bottom: 48.3%;
-}
-.trincomalee{
-    position: absolute;
-    left: 49.66%;
-    right: 21.02%;
-    top: 21.64%;
-    bottom: 56.87%;
 }
 .polonnaruwa{
     position: absolute;
@@ -232,6 +253,16 @@ body{
     top: 38.23%;
     bottom: 44.18%;
 }
+
+/* Eastern Province */
+.trincomalee{
+    position: absolute;
+    left: 49.66%;
+    right: 21.02%;
+    top: 21.64%;
+    bottom: 56.87%;
+}
+
 .batticaloa{
     position: absolute;
     left: 70.6%;
@@ -246,6 +277,8 @@ body{
     top: 53.63%;
     bottom: 15%;
 }
+
+/* Central Province */
 .nuwaraeliya{
     position: absolute;
     left: 35.49%;
