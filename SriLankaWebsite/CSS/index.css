@@ -3,7 +3,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+.mainBar{
+    width: 100%;
+}
 .maintopic{
     position: absolute;
     width: 221px;
