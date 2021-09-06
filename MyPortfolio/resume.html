@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Boostrap Css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <!--Laod Icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,22 +17,39 @@
 
     <title>Sasanka Weerakoon - Resume</title>
 
-   
+
 </head>
 
 <body>
 
     <!-- Start Navigation -->
-    <div class="linkingbar" id="myHeader" style="padding-right: 100px;">
-        <a style="float: left; color: black;" href="index.html"><b>Sasanka Weerakoon</b></a>
-        <a href="contact.html">CONTACT</a>
-        <a href="mydesgin.html">My DESIGN</a>
-        <a href="resume.html">RESUME</a>
-        <a href="index.html">ABOUT ME</a>
-    </div>
-
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sasanka Weerakoon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="resume.html">RESUME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mydesgin.html">My DESIGN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!--boxes with Content and image with links -->
+    <div class="pt-5"></div>
     <h1 style="font-size: 200%; padding-top: 60px; font-weight: bold; color:rgb(0, 0, 0);">
         <center>EDUCATION</center>
     </h1>
@@ -106,15 +123,41 @@
         <center>WORK</center>
     </h1>
 
-    <div class="container" style="padding-left: 10px; padding-top: 30px;">
-        <div class="box1" style="padding-left: 25%;">
-            <p style=" color:black; padding-top: 10px; padding-left: 20px;"><b>A freelance graphic designer on fiverr and freelancer.com</b><br><br>
-                <a href="https://www.freelancer.com/u/SasankaWeera" target="blank"><img src="IMG\work\Freelancer-logo1.png" alt="Image" width="300px" height="180px"></a>
-                <a href="https://www.fiverr.com/sasankaweera?public_mode=true" target="blank"><img src="IMG\work\FIV_Logo.png" alt="Image" width="230px" height="170px" style="padding-left: 60px;"></a><br>
-            </p>
-            <p style=" color:black; padding-top: 10px; padding-left: 20px;"><b>Content creator at Youtube</b><br>
-                <a href="https://www.youtube.com/channel/UC5vcCkjqnW7TyB7DcOCopAQ" target="blank"><img src="IMG\work\Youtube_logo.png" alt="Image" width="200px" height="180px"></a>
-            </p>
+    <div class="container mt-5">
+        <div class="box1 container">
+            <div class="ml-5">
+                <p><b>A freelance graphic designer on fiverr and freelancer.com</b><br><br></p>
+                <div class="mywork-two container w-100">
+                    <div class="mywork-item">
+                        <a href="https://www.freelancer.com/u/SasankaWeera" target="blank"><img src="IMG\work\Freelancer-logo1.png" alt="Image" width="200%" height="180px"></a>
+                    </div>
+                    <div class="pl-5"></div>
+                    <div class="pl-5"></div>
+                    <div class="pl-5"></div>
+                    <div class="pl-5"></div>
+                    <div class="pl-5"></div>
+                    <div class="mywork-item">
+                        <a href="https://www.fiverr.com/sasankaweera?public_mode=true" target="blank"><img src="IMG/work/FIV_Logo.png" alt="Image" class="img-fluid w-25"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-5">
+                <p><b>Content creator</b></p>
+                <div class="mywork-two">
+                    <div class="mywork-item">
+                        <a href="https://www.youtube.com/channel/UC5vcCkjqnW7TyB7DcOCopAQ" target="blank"><img src="IMG\work\Youtube_logo.png" alt="Image" width="200px" height="180px"></a>
+                    </div>
+                    <div class="pl-5"></div>
+                    <div class="pl-5"></div>
+                    <div class="mywork-item">
+                        <a href="https://www.facebook.com/CodeZone-107084475018756" target="blank"><img src="IMG/work/Team Logo.png" alt="Image" class="img-fluid w-100"></a>
+                    </div>
+                    <div class="mywork-item">
+                        <a href="https://www.instagram.com/d_bro_code/" target="blank"><img src="IMG/work/Design UI.png" alt="Image" class="img-fluid w-100"></a>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
@@ -122,30 +165,6 @@
 
     <br><br><br><br><br>
 
-    <!--<div class="container linkingbar">-->
-    <!--Bottom Navigation-->
-    <div class="row linkingbar" style="padding-top: 50px;">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-4">
-                    <p style="text-align: center; font-size: 75%;">
-                        <b>Call</b><br> +94 719 414 139
-                    </p>
-                </div>
-                <div class="col-4">
-                    <p style="text-align: center; font-size: 75%;">
-                        <b>Address</b><br> 265/6/1, Alubomulla,Panadura <br> Sri Lanka
-                    </p>
-                </div>
-                <div class="col-4">
-                    <p style="text-align: center; font-size: 75%;">
-                        <b>Email</b><br> sajewsasanka1@gmail.com
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--</div>-->
 
 
     <!--Fixed SocialMedia Panal-->
@@ -157,7 +176,26 @@
         <a href="https://www.youtube.com/channel/UC5vcCkjqnW7TyB7DcOCopAQ" target="blank" class="youtube"><i class="fa fa-youtube"></i></a>
     </div>
 
-    <script src="Script/main.js"></script>
+    <footer class="mt-5 pt-4">
+        <div class="container">
+            <div class="footer-fixed row">
+                <div class="m-0 py-4">
+                    <h5>Call</h5>
+                    <p>+94 719 414 139</p>
+                </div>
+                <div class="m-0 py-4 ">
+                    <h5>Address</h5>
+                    <p>265/6/1, Alubomulla,Panadura<br>Sri Lanka</p>
+                </div>
+                <div class="m-0 py-4 ">
+                    <h5>Email</h5>
+                    <p>sajewsasanka1@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 
 </body>
 
