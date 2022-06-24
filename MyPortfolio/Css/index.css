@@ -46,6 +46,18 @@ p {
     text-align: justify;
 }
 
+a:visited {
+    color: #1b1b1b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 
 /*Correcting padding to the main photo and text*/
 
