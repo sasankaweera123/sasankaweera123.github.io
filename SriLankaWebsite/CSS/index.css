@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
-
-html{
+html {
     scroll-behavior: smooth;
 }
-.mainBar{
+
+.mainBar {
     width: 100%;
 }
-.maintopic{
+
+.maintopic {
     position: absolute;
     width: 221px;
     height: 75px;
     left: 218px;
     top: 44px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -21,19 +21,18 @@ html{
     color: #00618A;
 }
 
-.recmain{
+.recmain {
     position: absolute;
     width: 100%;
     height: 215px;
     left: 0px;
     top: -46px;
-
     background: #ACE6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
-.flag{
+.flag {
     position: absolute;
     width: 148px;
     height: 74px;
@@ -41,7 +40,7 @@ html{
     top: 41px;
 }
 
-.emblem{
+.emblem {
     position: absolute;
     width: 100px;
     height: 141px;
@@ -50,255 +49,52 @@ html{
     top: 1.46%;
     bottom: 84.77%;
 }
-body{
+
+body {
     background-color: #1DBAFE;
 }
 
-.backgroundvec1{
+.backgroundvec1 {
     position: absolute;
     width: 1065px;
     height: 1065px;
     left: -209px;
     top: -77px;
     border-radius: 50%;
-
     background: rgba(172, 230, 255, 0.2);
     border: 3px solid rgba(0, 97, 138, 0.1);
     box-sizing: border-box;
 }
 
-.maintxt{
+.maintxt {
     position: absolute;
     width: 741px;
     height: 432px;
     left: 31px;
     top: 313px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 54px;
-
     color: #FFFFFF;
 }
 
-.Secondrec{
+.Secondrec {
     position: absolute;
     width: 485px;
     height: 569px;
     left: 871px;
     top: 313px;
-
     background: #ACE6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 86px;
 }
 
-.lkmap{
+.lkmap {
     position: absolute;
     width: 304px;
     height: 530px;
     left: 962px;
     top: 333px;
-
-}
-
-/*Western Province*/
-.gampaha{
-    position: absolute;
-    left: 8.16%;
-    right: 74.45%;
-    top: 64.22%;
-    bottom: 25.19%;
-}
-
-.kaluthara{
-    position: absolute;
-    left: 11.66%;
-    right: 66.74%;
-    top: 77.09%;
-    bottom: 10.28%;
-}
-
-.colombo{
-    position: absolute;
-    left: 9.68%;
-    right: 73.82%;
-    top: 73.08%;
-    bottom: 20.14%;
-}
-
-/* Sabaragamuwa Province */
-.kegalla{
-    position: absolute;
-    left: 23%;
-    right: 59.49%;
-    top: 62.44%;
-    bottom: 23.18%;
-}
-
-.ratnapura{
-    position: absolute;
-    left: 24.21%;
-    right: 41.75%;
-    top: 74.44%;
-    bottom: 7.91%;
-}
-
-/* Uva Province */
-.badulla{
-    position: absolute;
-    left: 50.87%;
-    right: 27.48%;
-    top: 56.81%;
-    bottom: 15.81%;
-
-}
-
-.monaragala{
-    position: absolute;
-    left: 53.04%;
-    right: 11.42%;
-    top: 60.87%;
-    bottom: 9.54%;
-}
-
-/* Southern Province */
-.matara{
-    position: absolute;
-    left: 33.13%;
-    right: 51.37%;
-    top: 87.89%;
-    bottom: 0.06%;
-}
-
-.hambanthota{
-    position: absolute;
-    left: 43.42%;
-    right: 7.97%;
-    top: 83.26%;
-    bottom: 1.38%;
-}
-.galle{
-    position: absolute;
-    left: 15.6%;
-    right: 61.73%;
-    top: 86.76%;
-    bottom: 1.08%;
-}
-
-/* North-Western Province */
-.puttalam{
-    position: absolute;
-    left: 3%;
-    right: 76.84%;
-    top: 32.32%;
-    bottom: 34.44%;
-}
-.kurunegala{
-    position: absolute;
-    left: 11.98%;
-    right: 58.26%;
-    top: 41.94%;
-    bottom: 34.06%;
-}
-
-/* Northern Province */
-.kilinochchi{
-    position: absolute;
-    left: 15.14%;
-    right: 56.45%;
-    top: 3.88%;
-    bottom: 84.02%;
-}
-.jaffna{
-    position: absolute;
-    left: 1.19%;
-    right: 55.95%;
-    top: 0.06%;
-    bottom: 90.09%;
-}
-.mullaitivu{
-    position: absolute;
-    left: 24.12%;
-    right: 41.27%;
-    top: 9.68%;
-    bottom: 77.03%;
-}
-.mannar{
-    position: absolute;
-    left: 0.1%;
-    right: 66.03%;
-    top: 15.27%;
-    bottom: 66.4%;
-}
-.vavuniya{
-    position: absolute;
-    left: 24.07%;
-    right: 48.97%;
-    top: 18.13%;
-    bottom: 67.01%;
-}
-/* North Central Province */
-.anuradhapura{
-    position: absolute;
-    left: 14.41%;
-    right: 40%;
-    top: 23.5%;
-    bottom: 48.3%;
-}
-.polonnaruwa{
-    position: absolute;
-    left: 49.8%;
-    right: 24.42%;
-    top: 38.23%;
-    bottom: 44.18%;
-}
-
-/* Eastern Province */
-.trincomalee{
-    position: absolute;
-    left: 49.66%;
-    right: 21.02%;
-    top: 21.64%;
-    bottom: 56.87%;
-}
-
-.batticaloa{
-    position: absolute;
-    left: 70.6%;
-    right: 3.06%;
-    top: 40.23%;
-    bottom: 37.77%;
-}
-.ampara{
-    position: absolute;
-    left: 60.04%;
-    right: 0.1%;
-    top: 53.63%;
-    bottom: 15%;
-}
-
-/* Central Province */
-.nuwaraeliya{
-    position: absolute;
-    left: 35.49%;
-    right: 40.94%;
-    top: 65.56%;
-    bottom: 21.21%;
-}
-.matale{
-    position: absolute;
-    left: 38.24%;
-    right: 39.53%;
-    top: 46.65%;
-    bottom: 37.39%;
-}
-.kandy{
-    position: absolute;
-    left: 35.04%;
-    right: 38.81%;
-    top: 60.01%;
-    bottom: 26.02%;
 }

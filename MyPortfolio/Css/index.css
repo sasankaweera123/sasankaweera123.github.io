@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500;1,600;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500;1,600;1,800&display=swap");
 html {
     scroll-behavior: smooth;
 }
@@ -20,7 +20,7 @@ h2 {
 
 .navbar .navbar-nav .nav-link {
     padding: 0 20px;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
 
 .navbar {
@@ -36,8 +36,8 @@ h2 {
 /* Boddy Style and text Style */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: radial-gradient( rgb(0, 180, 219), rgb(0, 131, 176));
+    font-family: "Poppins", sans-serif;
+    background-image: radial-gradient(rgb(0, 180, 219), rgb(0, 131, 176));
 }
 
 p {
@@ -109,8 +109,13 @@ p {
     background-color: #000;
 }
 
+.researchgate {
+    background: darkblue;
+    color: white;
+}
+
 .facebook {
-    background: #3B5998;
+    background: #3b5998;
     color: white;
 }
 

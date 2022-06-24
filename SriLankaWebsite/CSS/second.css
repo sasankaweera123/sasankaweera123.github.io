@@ -1,44 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
-
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #1DBAFE;
 }
-.backgroundvec{
+
+.backgroundvec {
     position: absolute;
     width: 1278px;
     height: 1278px;
     left: -363px;
     top: -272px;
     border-radius: 50%;
-
     background: rgba(172, 230, 255, 0.2);
     border: 3px solid rgba(0, 97, 138, 0.1);
     box-sizing: border-box;
 }
-.maintopic
-{
+
+.maintopic {
     position: absolute;
     width: 1145px;
     height: 170px;
     left: 155px;
     top: 39px;
-
     background: #ACE6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
-
-.topic{
+.topic {
     position: absolute;
     width: 140px;
     height: 96px;
     left: 658px;
     top: 76px;
-    
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -47,7 +44,7 @@ body{
     color: #00618A;
 }
 
-.flag{
+.flag {
     position: absolute;
     width: 148px;
     height: 74px;
@@ -55,73 +52,92 @@ body{
     top: 30%;
 }
 
-.topicline{
+.topicline {
     position: absolute;
     width: 167px;
     height: 0px;
     left: 375px;
     top: 120px;
-    
     border: 4px dashed #00618A;
     transform: rotate(90deg);
 }
 
-.bodyrec{
+.bodyrec {
     position: absolute;
     width: 528px;
     height: 569px;
     left: 112px;
     top: 302px;
-
     background: #ACE6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 86px;
 }
 
-.province{
+.province {
     position: absolute;
     width: 238px;
     height: 75px;
     left: 188px;
     top: 376px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 75px;
-
-
     color: #00618A;
 }
 
-.distric{
+.distric {
     position: absolute;
     width: 196px;
     height: 75px;
     left: 188px;
     top: 556px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 75px;
-
     color: #00618A;
 }
 
-.lkmap{
+.lkmap {
     position: absolute;
     width: 402px;
     height: 701px;
     left: 925px;
     top: 260px;
-
 }
 
+.westernProvince {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 188px;
+    top: 480px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #0193d1;
+    display: none;
+}
+
+.lkmap:hover+.westernProvince {
+    display: block;
+}
+
+path:hover {
+    fill: #00618A;
+}
+
+
+/* These bellows are un nessory  */
+
+
 /*Western Province*/
-.gampaha{
+
+.gampaha {
     position: absolute;
     left: 8.16%;
     right: 74.45%;
@@ -129,249 +145,299 @@ body{
     bottom: 25.19%;
 }
 
-.gampaha:hover .img-top{
+.gampaha:hover .img-top {
     display: inline;
 }
 
-
-.kaluthara{
+.kaluthara {
     position: absolute;
     left: 11.66%;
     right: 66.74%;
     top: 77.09%;
     bottom: 10.28%;
 }
-.kaluthara:hover .img-top{
+
+.kaluthara:hover .img-top {
     display: inline;
 }
 
-.colombo{
+.colombo {
     position: absolute;
     left: 9.68%;
     right: 73.82%;
     top: 73.08%;
     bottom: 20.14%;
 }
-.colombo:hover .img-top{
+
+.colombo:hover .img-top {
     display: inline;
 }
 
+
 /* Sabaragamuwa Province */
-.kegalla{
+
+.kegalla {
     position: absolute;
     left: 23%;
     right: 59.49%;
     top: 62.44%;
     bottom: 23.18%;
 }
-.kegalla:hover .img-top{
+
+.kegalla:hover .img-top {
     display: inline;
 }
-.ratnapura{
+
+.ratnapura {
     position: absolute;
     left: 24.21%;
     right: 41.75%;
     top: 74.44%;
     bottom: 7.91%;
 }
-.ratnapura:hover .img-top{
+
+.ratnapura:hover .img-top {
     display: inline;
 }
 
+
 /* Uva Province */
-.badulla{
+
+.badulla {
     position: absolute;
     left: 50.87%;
     right: 27.48%;
     top: 56.81%;
     bottom: 15.81%;
 }
-.badulla:hover .img-top{
+
+.badulla:hover .img-top {
     display: inline;
 }
 
-.monaragala{
+.monaragala {
     position: absolute;
     left: 53.04%;
     right: 11.42%;
     top: 60.87%;
     bottom: 9.54%;
 }
-.monaragala:hover .img-top{
+
+.monaragala:hover .img-top {
     display: inline;
 }
 
+
 /* Southern Province */
-.matara{
+
+.matara {
     position: absolute;
     left: 33.13%;
     right: 51.37%;
     top: 87.89%;
     bottom: 0.06%;
 }
-.matara:hover .img-top{
+
+.matara:hover .img-top {
     display: inline;
 }
 
-.hambanthota{
+.hambanthota {
     position: absolute;
     left: 43.42%;
     right: 7.97%;
     top: 83.26%;
     bottom: 1.38%;
 }
-.hambanthota:hover .img-top{
+
+.hambanthota:hover .img-top {
     display: inline;
 }
-.galle{
+
+.galle {
     position: absolute;
     left: 15.6%;
     right: 61.73%;
     top: 86.76%;
     bottom: 1.08%;
 }
-.galle:hover .img-top{
+
+.galle:hover .img-top {
     display: inline;
 }
 
+
 /* North-Western Province */
-.puttalam{
+
+.puttalam {
     position: absolute;
     left: 3%;
     right: 76.84%;
     top: 32.32%;
     bottom: 34.44%;
 }
-.puttalam:hover .img-top{
+
+.puttalam:hover .img-top {
     display: inline;
 }
-.kurunegala{
+
+.kurunegala {
     position: absolute;
     left: 11.98%;
     right: 58.26%;
     top: 41.94%;
     bottom: 34.06%;
 }
-.kurunegala:hover .img-top{
+
+.kurunegala:hover .img-top {
     display: inline;
 }
+
+
 /* Northern Province */
-.kilinochchi{
+
+.kilinochchi {
     position: absolute;
     left: 15.14%;
     right: 56.45%;
     top: 3.88%;
     bottom: 84.02%;
 }
-.kilinochchi:hover .img-top{
+
+.kilinochchi:hover .img-top {
     display: inline;
 }
-.jaffna{
+
+.jaffna {
     position: absolute;
     left: 1.19%;
     right: 55.95%;
     top: 0.06%;
     bottom: 90.09%;
 }
-.jaffna:hover .img-top{
+
+.jaffna:hover .img-top {
     display: inline;
 }
-.mullaitivu{
+
+.mullaitivu {
     position: absolute;
     left: 24.12%;
     right: 41.27%;
     top: 9.68%;
     bottom: 77.03%;
 }
-.mullaitivu:hover .img-top{
+
+.mullaitivu:hover .img-top {
     display: inline;
 }
-.mannar{
+
+.mannar {
     position: absolute;
     left: 0.1%;
     right: 66.03%;
     top: 15.27%;
     bottom: 66.4%;
 }
-.mannar:hover .img-top{
+
+.mannar:hover .img-top {
     display: inline;
 }
-.vavuniya{
+
+.vavuniya {
     position: absolute;
     left: 24.07%;
     right: 48.97%;
     top: 18.13%;
     bottom: 67.01%;
 }
-.vavuniya:hover .img-top{
+
+.vavuniya:hover .img-top {
     display: inline;
 }
+
+
 /* North Central Province */
-.anuradhapura{
+
+.anuradhapura {
     position: absolute;
     left: 14.41%;
     right: 40%;
     top: 23.5%;
     bottom: 48.3%;
 }
-.anuradhapura:hover .img-top{
+
+.anuradhapura:hover .img-top {
     display: inline;
 }
-.polonnaruwa{
+
+.polonnaruwa {
     position: absolute;
     left: 49.8%;
     right: 24.42%;
     top: 38.23%;
     bottom: 44.18%;
 }
-.polonnaruwa:hover .img-top{
+
+.polonnaruwa:hover .img-top {
     display: inline;
 }
+
+
 /* Eastern Province */
-.trincomalee{
+
+.trincomalee {
     position: absolute;
     left: 49.66%;
     right: 21.02%;
     top: 21.64%;
     bottom: 56.87%;
 }
-.trincomalee:hover .img-top{
+
+.trincomalee:hover .img-top {
     display: inline;
 }
 
-.batticaloa{
+.batticaloa {
     position: absolute;
     left: 70.6%;
     right: 3.06%;
     top: 40.23%;
     bottom: 37.77%;
 }
-.batticaloa:hover .img-top{
+
+.batticaloa:hover .img-top {
     display: inline;
 }
-.ampara{
+
+.ampara {
     position: absolute;
     left: 60.04%;
     right: 0.1%;
     top: 53.63%;
     bottom: 15%;
 }
-.ampara:hover .img-top{
+
+.ampara:hover .img-top {
     display: inline;
 }
 
+
 /* Central Province */
-.nuwaraeliya{
+
+.nuwaraeliya {
     position: absolute;
     left: 35.49%;
     right: 40.94%;
     top: 65.56%;
     bottom: 21.21%;
 }
-.nuwaraeliya:hover .img-top{
+
+.nuwaraeliya:hover .img-top {
     display: inline;
 }
-.matale{
+
+.matale {
     position: absolute;
     left: 38.24%;
     right: 39.53%;
@@ -379,10 +445,11 @@ body{
     bottom: 37.39%;
 }
 
-.matale:hover .img-top{
+.matale:hover .img-top {
     display: inline;
 }
-.kandy{
+
+.kandy {
     position: absolute;
     left: 35.04%;
     right: 38.81%;
@@ -390,15 +457,14 @@ body{
     bottom: 26.02%;
 }
 
-.kandy:hover .img-top{
+.kandy:hover .img-top {
     display: inline;
 }
 
-.img-top{
+.img-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
 }
-    
