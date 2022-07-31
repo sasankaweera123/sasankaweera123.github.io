@@ -101,23 +101,6 @@ p {
 }
 
 
-/*Creating a box Style */
-
-.box1 {
-    background-color: rgba(211, 211, 211, 0.24);
-    widows: 400px;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 0px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
 /*Button Style*/
 
 .button {
@@ -147,12 +130,44 @@ p {
 }
 
 
-/* designslide */
+/* acedemic  */
 
-.desigblock {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.type01 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.accordion-header .accordion-button {
+    background: transparent;
+}
+
+.accordion a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+.accordion a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+.accordion a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+.accordion a:active {
+    color: black;
+    text-decoration: none;
 }
 
 
