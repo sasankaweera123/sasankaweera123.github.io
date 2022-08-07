@@ -111,8 +111,13 @@ p {
     margin: 0px;
 }
 
-.mywork-two {
+.workarea b {
+    font-size: 22px;
+}
+
+.workcard {
     display: flex;
+    justify-content: space-around;
 }
 
 
