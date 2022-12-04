@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.2em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container h1 {
+  margin-top: -10vh;
+  font-size: 5em;
+}
+
+.container h4 {
+  font-size: 3em;
+}
+
+.btn {
+  margin-top: -5vh;
+  padding: 1em 2em;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  border-radius: 50px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  animation: blinker 1s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.mydetails {
+  display: none;
+  margin-top: 20vh;
+}
+
+.mydetails .details {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40vh;
+  margin-right: 40vh;
+}
+
+.mydetails .details .content {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.mydetails .details .content p {
+  text-align: justify;
+}
+
+.mydetails i {
+  color: #ffffff !important;
+  margin-left: 1em;
+  animation: blinker 1s linear infinite;
+}
+
+.mydetails img {
+  animation: fadeIn 10s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .mydetails .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  .details .content {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  .mydetails .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+}
