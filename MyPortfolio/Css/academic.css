@@ -1,193 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500;1,600;1,800&display=swap");
-html {
-    scroll-behavior: smooth;
-}
+@import url(main.css);
 
-
-/*Navigation ba styles (Start , End)*/
-
-.navbar .navbar-nav .nav-link {
-    padding: 0 20px;
-    transition: 0.3s ease;
-}
-
-.navbar {
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.nav-item {
-    font-weight: 500;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-    background-image: radial-gradient(rgb(0, 180, 219), rgb(0, 131, 176));
-}
-
-p {
-    font-size: 130%;
-    text-shadow: black;
-    text-align: justify;
-}
-
-
-/*Creation padding for main image and conrtent*/
-
-.vsmallpadding {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-
-/*Fixed icon bar Styles*/
-
-.icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.icon-bar a {
-    display: block;
+.home {
+    position: relative;
+    height: 100%;
+    width: 100%;
     text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
+    align-items: center;
 }
 
-.icon-bar a:hover {
-    background-color: #000;
+.home h1 {
+    position: relative;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
-.facebook {
-    background: #3b5998;
-    color: white;
+.home h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--background-color);
+    animation: typing 1s ease forwards;
+    animation-delay: 0.3s;
 }
 
-.github {
-    background-color: black;
-    color: white;
-}
-
-.google {
-    background: #dd4b39;
-    color: white;
-}
-
-.linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.instagram {
-    background-color: blueviolet;
-    color: white;
-}
-
-.content {
-    margin-left: 75px;
-    font-size: 30px;
-}
-
-
-/*Button Style*/
-
-.button {
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button1 {
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(0, 131, 176);
-    border-radius: 8px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 12px;
-}
-
-.button1:hover {
-    background-color: rgba(255, 255, 255, 0.705);
-    color: rgb(255, 255, 255);
-}
-
-
-/* acedemic  */
-
-.type01 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.accordion-header .accordion-button {
-    background: transparent;
-}
-
-.accordion a:link {
-    color: black;
+.home a {
     text-decoration: none;
 }
 
 
-/* visited link */
-
-.accordion a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-
-/* mouse over link */
-
-.accordion a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-
-/* selected link */
-
-.accordion a:active {
-    color: black;
-    text-decoration: none;
-}
-
-
-/* footer */
-
-footer {
-    background-color: white;
-}
-
-.footer-fixed {
-    display: flex;
-    justify-content: space-around;
+.home .home-content {
+    border: 2px solid var(--secondory-color);
+    padding: 5%;
+    margin: 5%;
     text-align: center;
 }
 
-.footer-fixed p {
-    font-size: 11px;
-    text-align: center;
+.home .home-content h3 {
+    font-weight: bold;
+    color: var(--secondory-color);
 }
 
-footer h5 {
-    font-size: 14px;
+.home .home-content a{
+    text-decoration: none;
+    color: var(--text-color);
 }
+
+
+

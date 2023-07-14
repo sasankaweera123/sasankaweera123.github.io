@@ -75,27 +75,27 @@
     <div class="container contact home">
       
       <div class="col contact-content">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+        <h2 method="POST" class="heading">Contact <span>Me!</span></h2>
         <form action="#" onsubmit="showEmailSentAlert()">
           <div class="input-box">
             <div class="row"><div class="input-field">
-              <input type="text" placeholder="Name" required>
+              <input type="text" placeholder="Name" name="name" required>
               <span class="forcus"></span>
             </div>
             <div class="input-field">
-              <input type="email" placeholder="Email Adress" required>
+              <input type="email" placeholder="Email Adress" name="email" required>
               <span class="forcus"></span>
           </div></div>
           <div class="email-field">
-            <input type="text" placeholder="Email Subject" required>
+            <input type="text" placeholder="Email Subject" name="subject" required>
             <span class="forcus"></span>
           </div>
           <div class="textarea-field pt-3">
-            <textarea placeholder="Message" cols="30" rows="5" required></textarea>
+            <textarea placeholder="Message" cols="30" rows="5" name="message" required></textarea>
             <span class="forcus"></span>
           </div>
           <div class="btn-box btns pt-2">
-            <button type="submit" class="btn btn-outline-info">Send</button>
+            <button type="submit" name="submit" class="btn btn-outline-info">Send</button>
           </div>
         </form>
       </div>
@@ -139,6 +139,7 @@
       </div>
     </div>
 
+    <!-- <?php include 'sendEmail.php'?> -->
     <script src="Script/main.js"></script>
   </body>
 </html>
